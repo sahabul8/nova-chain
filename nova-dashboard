@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Token Launcher</title>
+</head>
+<body>
+  <h2>Token Launcher Interface</h2>
+
+  <input type="text" placeholder="Token Name">
+  <input type="text" placeholder="Symbol">
+  <button onclick="launch()">Launch Token</button>
+
+  <p id="status"></p>
+
+  <script>
+    function launch() {
+      document.getElementById("status").innerText =
+        "Token launched successfully (demo mode).";
+    }
+  </script>
+</body>
+</html>
